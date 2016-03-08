@@ -1,0 +1,105 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_slider.scss - Non-cosmetic styles for slider
+ *
+ * coded by Gabriel
+ * started at 06/03/2016
+ */
+
+.slider-slides {
+    background-color: lightgrey;
+    height: 502px;
+}
+
+.slider-slides__slide{
+    margin: 0 auto;
+    padding-top: 164px;
+    width: 60rem;
+}
+
+.slider-slides__title{
+    background: #e2534b none repeat scroll 0 0;
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 10px auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 340px;
+}
+
+.slider-slides__subtitle{
+    background-color: slategray;
+    border-radius: 0.7rem;
+    color: white;
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: center;
+}
+
+//slider Nav
+
+.slide-nav__button{
+    background: $focusColor;
+    box-shadow: 0 .3rem 0 $darkFocusColor;
+    color: white;
+    height: 58px;
+    line-height: 4;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 50px;
+    /*overflow: hidden;*/
+    font-size: 0;
+}
+.slide-next{
+    right: 0;
+    border-radius: 5px 0 0 5px;
+    text-decoration: none;
+}
+
+.slide-next::before{
+    content: "";
+    display: block;
+    font: 4rem "Glyphs";
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+    margin-left: 0.5rem;
+}
+
+.slide-previous{
+    left: 0;
+    border-radius: 0 5px 5px 0;
+    text-decoration: none;
+}
+
+.slide-previous::before{
+    content: "";
+    display: block;
+    font: 4rem "Glyphs";
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+    margin-right: 0.5rem;
+}
+
+.slider-dots{
+    margin: 20px auto 0;
+    width: 216px;
+}
+
+.slider-dots__dot{
+    background-color: #b0b8b9;
+    display: inline-block;
+    height: 5px;
+    margin: 0 5px;
+    text-indent: -9999px;
+    width: 60px;
+}
+
+//
