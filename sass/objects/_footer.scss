@@ -1,0 +1,58 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_footer.scss - Non-cosmetic styles for footer
+ *
+ * coded by Gabriel
+ * started at 06/03/2016
+ */
+
+ .footer {
+    background-color: gray;
+    background: $lightMainColor url( "#{ $imgPath }footer-primary-bcg-pattern.png" ) top left repeat-x;
+ }
+
+ .aside {
+    color: white;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+
+.aside__heading {
+    display: none;
+}
+
+.aside__primary {
+    color: white;
+    margin: 0 auto 28px;
+    width: 1150px;
+}
+
+.aside__primary-cols {
+    display: inline-block;
+    width: 1150px;
+}
+
+.aside__primary-col {
+    float: left;
+    margin-right: 50px;
+}
+
+.aside__primary-col-heading {
+    color: $footer50DarkColor;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.2rem;
+}
+
+.aside__primary-col-link {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.aside__primary-col-link::before {
+    content: "";
+    font: 1.4rem/1 "Glyphs";
+    margin-right: 10px;
+}

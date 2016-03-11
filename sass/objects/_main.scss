@@ -52,6 +52,7 @@
 
 .section-services__elt {
     background-color: white;
+    box-shadow: 0 .3rem 0 #e5e6e6;
     border-radius: 5px;
     display: inline-block;
     text-align: center;
@@ -61,15 +62,11 @@
     margin-left: 20px;
 }
 
-
-
 .section-services__link {
     color: #7f8c8c;
     display: inline-block;
-    height: 254px;
-    margin-top: 54px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 310px;
+    padding: 54px 10px 0;
     position: relative;
     text-decoration: none;
     width: 270px;
@@ -81,9 +78,14 @@
     font: 6rem "Glyphs";
     margin-bottom: 0.8rem;
 }
-
-.section-services__icons:hover:before{
+//controler que le icon change au survole
+.section-services__link:hover .section-services__icons:before {
     color: $focusColor;
+}
+
+.section-services__link:hover .section-services__fake-button{
+    background-color: $focusColor;
+    box-shadow: 0 .3rem 0 $darkFocusColor;
 }
 
 
@@ -131,9 +133,4 @@
     position: absolute;
     right: 35px;
     width: 200px;
-}
-
-.section-services__fake-button:hover{
-    background: $focusColor;
-    box-shadow: 0 .3rem 0 $darkFocusColor;
 }

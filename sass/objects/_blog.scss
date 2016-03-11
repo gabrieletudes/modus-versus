@@ -1,0 +1,54 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_blog.scss - Non-cosmetic styles for blog
+ *
+ * coded by Gabriel
+ * started at 06/03/2016
+ */
+
+ /*blog-articles*/
+ .aside__blog-articles-heading {
+     font-size: 2rem;
+     font-style: italic;
+     margin-bottom: 2.4rem;
+ }
+
+ .aside__blog-articles-link {
+     color: white;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+
+ .aside__blog-article {
+     font-size: 1.3rem;
+     margin-bottom: 2rem;
+ }
+
+ .aside__blog-article-link {
+     color: white;
+     display: inline-block;
+     text-decoration: none;
+ }
+
+ .aside__blog-article-picture {
+     background-color: rgba(black, 0.2);;
+     border-radius: 0.5rem;
+     float: left;
+     font-size: 0;
+     height: 7rem;
+     margin-right: 2rem;
+     width: 7rem;
+ }
+
+ .aside__blog-article-picture::after {
+     content: "";
+     font: 3rem/2.2 "Glyphs";
+     margin-left: 20px;
+ }
+
+ .aside__blog-article-date {
+     color: $footer50DarkColor;
+     display: block;
+ }

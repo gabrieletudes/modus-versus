@@ -1,0 +1,111 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_contact.scss - Non-cosmetic styles for contact
+ *
+ * coded by Gabriel
+ * started at 06/03/2016
+ */
+
+ /*contact*/
+
+ .aside__primary-contact-infos {
+     width: 374px;
+ }
+
+ .aside__primary-contact-heading {
+     font-size: 3rem;
+     font-weight: bolder;
+     line-height: 1.1;
+     margin-bottom: 1.7rem;
+     overflow: hidden;
+ }
+
+ .aside__primary-contact-name {
+     color: white;
+     text-decoration: none;
+ }
+
+ .aside__primary-contact-description {
+     font-size: 1.3rem;
+     line-height: 1.7;
+     margin-bottom: 2.4rem;
+ }
+
+ .aside__primary-label {
+     float: left;
+     font-size: 1.3rem;
+     margin-right: 20px;
+     margin-top: 4px;
+ }
+
+ dd {
+     margin-bottom: 10px;
+ }
+
+ .aside__primary-tel {
+     color: white;
+     font-size: 2rem;
+     font-style: italic;
+     text-decoration: none;
+ }
+
+ .aside__primary-email {
+     color: white;
+     font-size: 2rem;
+     font-style: italic;
+     text-decoration: none;
+ }
+
+ .aside__secondary {
+     background-color: #70b3ac;
+     font-size: 1.2rem;
+     min-height: 50px;
+ }
+
+ .aside__secondary-legals {
+     display: inline-block;
+     line-height: 4;
+     margin-left: 64px;
+ }
+
+ .aside__secondary-legals > a {
+     color: white;
+     text-decoration: none;
+ }
+
+ .aside__secondary-socials {
+     float: right;
+     line-height: 4;
+ }
+
+ .aside__secondary-socials-elt {
+     display: inline-block;
+ }
+
+ .aside__secondary-socials-link {
+     color: white;
+     font-size: 0;
+     margin-right: 28px;
+     min-height: 40px;
+     text-decoration: none;
+ }
+
+ .aside__secondary-social-facebook::before {
+     content: "";
+     font: 2.8rem/1 "Glyphs";
+ }
+
+ .aside__secondary-social-twitter::before {
+     content: "";
+     font: 3rem/2.2 "Glyphs";
+ }
+
+ .aside__secondary-social-googleplus::before {
+     content: "";
+     font: 3rem/2.2 "Glyphs";
+ }
+
+ .aside__secondary-rss-feed::before {
+     content: "";
+     font: 3rem/2.2 "Glyphs";
+ }

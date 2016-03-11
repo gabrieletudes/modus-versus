@@ -1,0 +1,152 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_why.scss - Non-cosmetic styles for why
+ *
+ * coded by Gabriel
+ * started at 06/03/2016
+ */
+
+.section-why{
+    margin-top: 8rem;
+    padding: 7.2rem 0 50px;
+    background: #ececec url( "#{ $imgPath }why-bcg-pattern.png" ) top left repeat-x;
+}
+
+.section-why__heading {
+    line-height: 1.4;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+.section-why__heading-title {
+    color: #e1524b;
+    display: block;
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section-why__heading-content {
+    font-size: 1.3rem;
+}
+
+.section-why__pictures {
+    margin-top: 7rem;
+}
+
+.section-why__team-picture {
+    border: 5px solid lightgray;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+}
+
+//cols
+.section-why__cols {
+    display: block;
+    margin: 6.5rem auto 0;
+    min-height: 160px;
+    width: 1050px;
+}
+
+.section-why__col {
+    float: left;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-right: 68px;
+    width: 22.5rem;
+}
+
+.section-why__col-heading {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.section-why__col-content {
+    font-size: 1.3rem;
+}
+
+//section clients
+.section-why__clients {
+    clear: both;
+    margin: 60px auto 0;
+    width: 1150px;
+}
+
+.section-clients__heading {
+    float: left;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-bottom: 55px;
+    margin-top: 10px;
+    width: 1048px;
+}
+
+.section-clients__heading::after {
+    border-bottom: 2px solid rgba(#000000, 0.1);
+    content: "";
+    display: block;
+    margin: -5px 0 15px 150px;
+    vertical-align: 4px;
+}
+
+.section-why__clients-nav {
+    float: right;
+}
+
+.section-why__clients-nav-button {
+    color:white;
+    border-radius: 5px;
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 40px;
+}
+
+.section-why__clients-nav-button {
+    background: #929C9C;
+    box-shadow: 0 .3rem 0 #7f8c8c;
+}
+
+.section-why__clients-nav-button:hover {
+    background: $focusColor;
+    box-shadow: 0 .3rem 0 $darkFocusColor;
+}
+
+.section-why__clients-nav-button::before {
+    display: block;
+    font: 2rem/1 "Glyphs";
+    margin-bottom: 1rem;
+    /*margin-left: 0.5rem;*/
+    margin-top: 1rem;
+}
+
+.section-why__clients-nav-previous::before {
+    content: "";
+    margin-left: 1rem;
+}
+
+.section-why__clients-nav-next::before {
+    content: "";
+    margin-left: 1.3rem;
+}
+
+.section-why__happy-clients {
+    clear: both;
+}
+
+.section-why__happy-client-picture {
+    border-radius: 5px;
+    width: 164px;
+}
+
+.section-why__happy-client:nth-child(n+2) {
+    margin-left: 3rem;
+}
+.section-why__happy-client {
+    border-radius: 10px;
+    display: inline-block;
+}

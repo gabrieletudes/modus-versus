@@ -31,6 +31,10 @@
 @import "objects/topbar.main-nav";
 @import "objects/topbar.main-nav.search-form";
 @import "objects/slider";
+@import "objects/why";
+@import "objects/footer";
+@import "objects/contact";
+@import "objects/blog";
 
 // 6. Components - Design des composants, morceaux d'UI
 @import "components/topbar";
@@ -41,8 +45,8 @@
 // 7. Trumps - Styles spécifiques à un élément
 
 // ----- tmp
-.wrapper {
+/*.wrapper {
      > footer {
         display: none;
     }
-}
+}*/
